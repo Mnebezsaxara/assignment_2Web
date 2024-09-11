@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+    background-color: #fdfdfd;
+}
+li {
+    list-style: none;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header {
+    padding: 20px 0;
+}
+.header__content {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    gap: 200px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #8bb7f0;
+    font-size: 18px;
+    transition: all 0.25s ease-in;
+}
+.nav__link:hover {
+    color: #6da4ec;
+    text-shadow: 1px 1px 10px rgba(0, 0, 255, 0.7);
+}
+.main {
+    padding-top: 80px;
+}
+.main__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    color: #ff3c1e;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.subtitle {
+    width: 450px;
+    color: #8bb7f0;
+    font-size: 14px;
+    font-style: italic;
+}
+.main__img img {
+    height: 400px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.card {
+    border: 2px solid #8bb7f0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 255, 0.7);
+    transition: all 0.2s linear;
+}
+#gym__card {
+    border: 2px solid #ff3c1e;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.7);
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card__img {
+    width: 300px;
+    height: 300px;
+}
+.card__title {
+    font-size: 17px;
+}
